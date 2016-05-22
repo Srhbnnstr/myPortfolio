@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+
+.jumbotron {
+  padding-top: 0;
+  background-color: transparent;
+  border: 20px solid black;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
