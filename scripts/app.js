@@ -4,8 +4,8 @@ $(document).ready(function() {
         $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     });
 });
-$('.overlay').live('click', function() {
+$('.button a').on('click', function() {
     $(".overlay").fadeToggle(200);
-    $(this).closest('.overlay').overlay('close');
+    $("button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
