@@ -40,9 +40,9 @@ animation-delay: 0.2s;
 }
 
 .fade-in.two {
-  -webkit-animation-delay: 1.3s;
+  -webkit-animation-delay: 1.1s;
   -moz-animation-delay: 1.3s;
-  animation-delay: 1.3s;
+  animation-delay: 1.1s;
 	margin:0;
 	padding:0;
 	text-decoration:none;
@@ -60,9 +60,9 @@ nav {
 	overflow:hidden;
 	background:none;
 }
-
 nav ul li {
 	display:inline-block;
+  font-family: 'Titillium Web', sans-serif;
 }
 .glyphicon-menu-down {
   color:thistle;
@@ -111,7 +111,6 @@ nav ul li a:hover {
 	color:#fff;
 	content:"\f00d";
 	font-family:"FontAwesome";
-  position:fixed;
 	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;
@@ -145,12 +144,14 @@ nav ul li a:hover {
   color:#fff;
 	border-bottom:1px solid #575757;
 	padding:50px 0px 50px;
+  font-family: 'Titillium Web', sans-serif;
 }
 .wrap ul.wrap-nav p {
   color: #fff;
   margin-top: 20px;
   background-color: rgba(0,0,0,.8);
   font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
 }
 .wrap ul.wrap-nav li {
 	font-size:20px;
@@ -221,7 +222,7 @@ nav ul li a:hover {
 	background:#34B484;
 	color:#f0f0f0;
 }
-.social-icon i {
+.social-icon h3 {
 	margin-top:12px;
 }
 @media screen and (max-width:48em) {
