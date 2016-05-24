@@ -90,6 +90,21 @@ h2{
 .skills h2{
   color:#fff;
 }
+.social-icon {
+  font-size: 50px;
+  text-align: center;
+	color:#e9e9e9;
+	display:inline-block;
+	margin:20px 20px 0 0;
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+.social-icon:hover {
+	background:#34B484;
+	color:#f0f0f0;
+}
 @media screen and (max-width:62em) {
   #portfolio{
     text-align: center;
@@ -112,3 +127,4 @@ h2{
     display: inline-block;
     text-align: center;
   }
+  
