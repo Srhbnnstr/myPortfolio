@@ -47,10 +47,6 @@ body {
     -webkit-animation-delay: 0.1s;
     -moz-animation-delay: 0.1s;
     animation-delay: 0.1s;
-    margin: 0;
-    padding: 20px;
-    text-decoration: none;
-    list-style: none;
 }
 .banner {
     width: 100%;
@@ -115,23 +111,37 @@ h2 {
     background: #34B484;
     color: #f0f0f0;
 }
-@media screen and (max-width:62em) {
+@media screen and (max-width:70em) {
+  .wrap ul.wrap-nav>li {
+      width: 100%;
+      padding: 20px 0;
+      border-bottom: 1px solid #575757;
+  }
     #portfolio {
         text-align: center;
     }
     .media-object {
         display: inline-block;
+        width: 100%;
+        height: auto;
     }
     p {
         font-family: 'Titillium Web', sans-serif;
         color: #fff;
     }
 @media screen and (max-width:48em) {
+  .wrap ul.wrap-nav>li {
+      width: 100%;
+      padding: 20px 0;
+      border-bottom: 1px solid #575757;
+  }
     #portfolio {
         text-align: center;
     }
     .media-object {
         display: inline-block;
+        width: 100%;
+        height: auto;
     }
     p {
         font-family: 'Titillium Web', sans-serif;
