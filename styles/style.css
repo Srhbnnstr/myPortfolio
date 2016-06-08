@@ -63,7 +63,6 @@ body {
     -moz-animation-delay: 1.3s;
     animation-delay: 1.1s;
     margin: 0;
-    padding: 20px;
     text-decoration: none;
     list-style: none;
 }
@@ -75,6 +74,7 @@ body {
 .banner {
     width: 100%;
     height: auto;
+    padding-bottom: 30px;
 }
 li {
     padding: 0;
@@ -92,14 +92,11 @@ nav ul li {
     display: inline-block;
     font-family: 'Titillium Web', sans-serif;
 }
-.glyphicon-menu-down {
-    color: thistle;
-}
 nav ul li a {
     color: thistle;
     display: inline-block;
-    padding: 1em 3em;
     text-decoration: none;
+    padding: 20px;
     border-bottom: 1px solid thistle;
     transition-property: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
@@ -107,12 +104,23 @@ nav ul li a {
     -o-transition: all .2s linear 0s;
     font-size: 16px;
 }
+ul, menu, dir {
+  padding-left: 0px;
+}
 nav ul li a:hover {
     color: #615b9e;
 }
 #aboutMe {
     padding-bottom: 10px;
     font-family: 'Titillium Web', sans-serif;
+}
+#profilePic {
+  border: solid 3px rgba(120,150,255,0.4);
+  height: 300px;
+  border-radius: 25px;
+}
+.aboutMe .paragraph {
+  margin:0px;
 }
 .aboutMe {
     padding-top: 30px;
@@ -170,12 +178,27 @@ nav ul li a:hover {
   color:#f0f0f0;
   font-family: 'Titillium Web', sans-serif;
 }
+@media screen and (max-width:28em) {
+  nav ul li {
+      display: block;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width:48em) {
-    .wrap ul.wrap-nav>li {
-        width: 100%;
-        padding: 20px 0;
-        border-bottom: 1px solid #575757;
-    }
+  .aboutMe .paragraph {
+    margin:0px;
+    font-size:14px;
+  }
+  #profilePic {
+    border: solid 3px rgba(120,150,255,0.4);
+    display: inline-block;
+    width: 70%;
+    height: auto;
+    border-radius: 25px;
+  }
+    pro
     .social {
         color: #c1c1c1;
         font-size: 25px;
